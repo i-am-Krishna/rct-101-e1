@@ -40,21 +40,22 @@ const handleClick = ()=>{
   setValue("")
 }
 
- 
 
+ 
+// console.log(value)
 //  console.log(todos)
   // NOTE: do not delete `data-cy` key value pair
   return (<div>
 
     <div className={styles.todoForm}>
 
-      <input data-cy="add-task-input" placeholder="Add task..." type="text" onChange={handleChange} />
+      <input data-cy="add-task-input" placeholder="Add task..." type="text" value={value} onChange={handleChange} />
 
       <button data-cy="add-task-button" disabled={!value} onClick={handleClick}>+</button>
-
+ 
     </div>
     <div>
-      <Tasks value={value} todos={todos} />
+      <Tasks  todos={todos} />
     </div>
   </div>
   );

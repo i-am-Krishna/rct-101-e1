@@ -1,8 +1,29 @@
 .task {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
   align-items: center;
-  margin-right: 10px;
+  margin: 15px  ;
   
+  
+}
+.task input {
+  border-radius: 50%;
+
+}
+
+.deleteBtn{
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 20px;
+
+}
+
+.checkBox{
+  outline: none;
+  border: none;
+  border-radius: 50%;
+}
+.line{
+  text-decoration: line-through;
 }
