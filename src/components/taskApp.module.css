@@ -1,3 +1,12 @@
 .taskApp {
-  /* Sample */
+
+  max-width: 380px;
+  min-height: 550px;
+  max-height: auto;
+  margin: 100px auto;
+  /* border: 2px solid blue; */
+  text-align: center;
+  border-radius:10px ;
+  background-color: white;
+  box-shadow: 3px 3px 3px  lightgray;
 }
