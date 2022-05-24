@@ -9,21 +9,7 @@ const AddTask = () => {
 
   const [value,setValue] = useState("")
   const [todos,setTodos] = useState([])
-
-//   const handleChange =(e)=>{
-//     setValue(e.target.value)
-//     console.log(e.target.value)
-//   }
-
-//  const handleClick=()=>{
-//    setTodos([...todos,{
-//      value,
-//      id:uuid() ,
-//      status:false
-//    }]);
-//    setValue("")
-//  }
-
+ 
 
 
 const handleChange = (e)=>{
@@ -40,11 +26,7 @@ const handleClick = ()=>{
   setValue("")
 }
 
-
  
-// console.log(value)
-//  console.log(todos)
-  // NOTE: do not delete `data-cy` key value pair
   return (<div>
 
     <div className={styles.todoForm}>
